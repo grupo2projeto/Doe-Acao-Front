@@ -141,7 +141,7 @@ function Cadastro() {
                                     />
                                 </div>
                                 <div className="flex flex-col w-full">
-                                    <label htmlFor="usuario">Email:  <span className="text-red-500">*</span></label>
+                                    <label htmlFor="usuario">E-mail:  <span className="text-red-500">*</span></label>
                                     <input
                                         type="text"
                                         id="usuario"
