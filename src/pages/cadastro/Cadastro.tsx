@@ -206,7 +206,7 @@ function Cadastro() {
                                         Cancelar
                                     </button>
                                     <button
-                                        className='block w-full max-w-xs mx-auto bg-rose-500 hover:bg-rose-700 focus:bg-rose-700 text-white rounded-lg px-3 py-3 font-semibold' type='submit'>
+                                        className='flex justify-center items-center w-full max-w-xs mx-auto bg-rose-500 hover:bg-rose-700 focus:bg-rose-700 text-white rounded-lg px-3 py-3 font-semibold' type='submit'>
                                         {isLoading ? <RotatingLines
                                             strokeColor="white"
                                             strokeWidth="5"
