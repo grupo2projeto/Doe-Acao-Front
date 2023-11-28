@@ -117,10 +117,10 @@ function Login() {
 
                         >
                             {isLoading ? <RotatingLines
-                                strokeColor="white"
-                                strokeWidth="5"
-                                animationDuration="0.75"
-                                width="24"
+                                 strokeColor="white"
+                                 strokeWidth="5"
+                                 animationDuration="0.75"
+                                 width="24"
                                 visible={true} /> : <span>Login</span>}
                         </button>
                         <p className="mt-6 flex justify-center font-sans text-sm font-light leading-normal text-inherit antialiased">

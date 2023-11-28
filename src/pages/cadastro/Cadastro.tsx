@@ -212,6 +212,7 @@ function Cadastro() {
                                             strokeWidth="5"
                                             animationDuration="0.75"
                                             width="24"
+                                            
                                             visible={true} /> : <span>Cadastrar</span>}
                                     </button>
                                 </div>

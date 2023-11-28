@@ -59,7 +59,7 @@ function CardPostagens({ post }: CardPostagensProps) {
 
             </div>
               {post.usuario?.id === usuario.id ?
-                <div className="pl-48">
+                <div className="flex justify-end pl-64">
 
                   <Link to={`/editarPostagem/${post.id}`} className='rounded text-rose-300 p-2 transition-all hover:text-rose-500 active:opacity-[0.85]'>
                     <button><Pencil size={24} weight='bold' /></button>
