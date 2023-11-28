@@ -20,7 +20,7 @@ function Perfil() {
 
     return (
         <>
-            <div className=" flex items-center">
+            <div className=" flex justify-center items-center">
                 <div className="container mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl ">
                     <div className="px-6">
                         <div className="flex flex-wrap justify-center ">
